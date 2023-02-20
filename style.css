@@ -1,0 +1,13 @@
+#container {
+  width: 500px;
+  margin: auto;
+}
+#container p {
+  display: grid;
+  padding: 10px 0;
+  grid-template-columns: 200px 100px 70px auto;
+  border-bottom: 1px solid lightcoral;
+}
+#container p b:last-child {
+  text-align: right;
+}
